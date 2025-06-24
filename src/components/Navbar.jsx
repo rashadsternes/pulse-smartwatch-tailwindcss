@@ -10,6 +10,7 @@ const Navbar = () => {
   };
 
   return (
+    // Desktop Horizontal Nav Items
     <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg border-b
     border-neutral-700/80">
       <div className="container px-4 mx-auto relative text-sm">
@@ -34,7 +35,8 @@ const Navbar = () => {
               { mobileDrawerOpen ? <X /> : <Menu /> }
             </button>
           </div>
-        </div>
+        </div> 
+        {/* Horizontal Nav Items */}
         { mobileDrawerOpen && (
           <div className="fixed right-0 z-20 bg-neutral-900 w-full p-12 
           flex flex-col justify-center items-center lg:hidden">

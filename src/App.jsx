@@ -1,5 +1,5 @@
-import { useState } from 'react'
-import Navbar from './components/Navbar.jsx'
+import Navbar from './components/Navbar.jsx';
+import HeroSection from './components/Hero.jsx';
 
 
 function App() {
@@ -7,7 +7,11 @@ function App() {
   return (
     <div>
       <Navbar />
-      <h1 className="text-3xl font-bold underline">Pulse Smartwatch</h1>
+      <div className="max-w-7xl mx-auto pt=20 px-6">
+        <h1 className="text-3xl font-bold underline">Pulse Smartwatch</h1>
+
+      </div>
+        
     </div>
   )
 }
