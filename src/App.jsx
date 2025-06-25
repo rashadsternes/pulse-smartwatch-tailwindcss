@@ -8,8 +8,7 @@ function App() {
     <div>
       <Navbar />
       <div className="max-w-7xl mx-auto pt=20 px-6">
-        <h1 className="text-3xl font-bold underline">Pulse Smartwatch</h1>
-
+        <HeroSection />
       </div>
         
     </div>
