@@ -125,7 +125,7 @@ export const checklistItems = [
 export const pricingOptions = [
   {
     title: "Starter",
-    price: "$19/month",
+    price: "$19",
     features: [
       "Full access to health & performance insights",
       "Mobile app coaching",
@@ -134,7 +134,7 @@ export const pricingOptions = [
   },
   {
     title: "Pro",
-    price: "$29/month",
+    price: "$29",
     features: [
       "Includes everything in Starter",
       "Strain coaching + HRV & Respiratory Rate analysis",
@@ -143,7 +143,7 @@ export const pricingOptions = [
   },
   {
     title: "Elite",
-    price: "$49/month",
+    price: "$49",
     features: [
       "All features unlocked",
       "Dedicated performance coach",

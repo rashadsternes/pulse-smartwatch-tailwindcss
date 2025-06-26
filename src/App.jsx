@@ -2,6 +2,7 @@ import Navbar from './components/Navbar.jsx';
 import HeroSection from './components/Hero.jsx';
 import FeatureSection from './components/Features.jsx';
 import Workflow from './components/Workflow.jsx';
+import Pricing from './components/Pricing.jsx';
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
         <HeroSection />
         <FeatureSection />
         <Workflow />
+        <Pricing />
       </div>
         
     </div>
