@@ -1,5 +1,5 @@
 import { CheckCircle2 } from "lucide-react";
-import mountaintopImg from "../assets/man-on-mountaintop-copy.jpg";
+import mountaintopImg from "../assets/man-on-mountaintop.jpg";
 import { checklistItems } from "../constants";
 
 const Workflow = () => {
